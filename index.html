@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yogar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Secular+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-barba="wrapper">
+    <header class="nav-header">
+      <h1><a href="./index.html" id="logo">Yogar.</a></h1>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+      </div>
+    </header>
+    <main data-barba="container" data-barba-namespace="home">
+      <section class="aereo slide">
+        <div class="hero-img">
+          <img src="./new/capa-yoga-aereo.jpg" alt="yoga aereo" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Yoga nas alturas <span class="aereo-span">yoga aéreo.</span>
+            </h2>
+            <div class="title-swipe t-swipe1"></div>
+          </div>
+          <p>
+            Equilíbrio, força, concentração e paz interior. Já pensou em ter a
+            sensação de flutuar? Pois essa é a proposta do yoga aéreo! A nova
+            prática, que une as técnicas da tradicional yoga com a habilidade de
+            acrobacias lúdicas e desafiadoras.
+          </p>
+          <a class="explore aereo-exp">Explorar</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="ashtanga slide">
+        <div class="hero-img">
+          <img src="./new/Ashtanga-Vinyasa-v2.jpg" alt="ashtanga yoga " />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>Ashtanga Vinyasa <span class="ashtanga-span">yoga.</span></h2>
+            <div class="title-swipe t-swipe2"></div>
+          </div>
+          <p>
+            Através de uma sequência fixa de posturas e estruturada em séries, o
+            Ashtanga Vinyasa caracteriza-se por uma prática dinâmica, intensa e
+            fluída.
+          </p>
+          <a class="explore ashtanga-exp">Explorar</a>
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+      <section class="fashion slide">
+        <div class="hero-img">
+          <img src="./new/capa-yoga-restaurativo.jpg" alt="yoga restaurativo" />
+          <div class="reveal-img"></div>
+        </div>
+        <div class="hero-desc">
+          <div class="title">
+            <h2>
+              Yoga Restaurativo <span class="fashion-span">com cristais.</span>
+            </h2>
+            <div class="title-swipe t-swipe3"></div>
+          </div>
+          <p>
+            O yoga restaurativo tem como foco o relaxamento profundo e a redução
+            da ansiedade e estresse. Poucas posturas são executadas com longas
+            permanências e com o uso de acessórios – mantas, bolsters, blocos e
+            fitas – que proporcionam apoio e segurança ao corpo estimulando o
+            sistema nervoso parassimpático.
+          </p>
+          <a href="./new/capa-yoga-restaurativo.jpg" class="explore fashion-exp"
+            >Explorar</a
+          >
+          <div class="reveal-text"></div>
+        </div>
+      </section>
+    </main>
+    <nav class="nav-bar">
+      <ul class="nav-links">
+        <h3>Pinterest</h3>
+        <h3>Facebook</h3>
+        <h3>Instragram</h3>
+      </ul>
+      <div class="contact">
+        <h2>Agende seu horário</h2>
+        <p>
+          Aulas individuais, em dupla ou coletivas. Todas as faixas etárias são
+          bem-vindas
+        </p>
+      </div>
+    </nav>
+    <div class="cursor">
+      <span class="cursor-text"></span>
+    </div>
+    <div class="swipe swipe1"></div>
+    <div class="swipe swipe2"></div>
+    <div class="swipe swipe3"></div>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"
+      integrity="sha256-2p2tRZlPowp3P/04Pw2rqVCSbhyV/IB7ZEVUglrDS/c="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"
+      integrity="sha256-XBVALc3QsDSQiDtiaBwNZ2rxCJTHzlUhhlDQ84J8bw8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
+      integrity="sha256-+9YNuItWuR4sbqeaNiJOxG0BvptYz4fbUXbIZoH5Jwo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"
+      integrity="sha256-3arngJBQR3FTyeRtL3muAGFaGcL8iHsubYOqq48mBLw="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
